@@ -71,19 +71,7 @@ def findpairs(ist,target):
             if ist[i]+ist[j]==target:
                 pairs.append((ist[i],ist[j]))
     return pairs
-print("pairs with sum ", target ," is ", findpairs(nums,target))
-
-# def find_pairs(ist, target):
-#     pairs = []
-#     for i in range(len(ist)):
-#         for j in range(i+1, len(ist)):
-#             if ist[i] + ist[j] == target:
-#                 pairs.append((ist[i], ist[j]))
-#     return pairs
-
-# nums = [1, 5, 7, -1, 5]
-# target = 6
-# print("Pairs with sum ", target, "is", find_pairs(nums, target))
+print("pairs with sum ", target ," is ", findpairs(nums,target))
 
 
     
